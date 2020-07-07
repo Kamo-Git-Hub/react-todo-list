@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif
+}
+.project-name{
+    background-color: rgb(198, 200, 204);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border-bottom: 3px solid rgb(61, 61, 61);
+letter-spacing: 12px;
+word-spacing: 15px;
+}
+
+.input-title{
+    width: 400px !important;
+}
+.time-input{
+    width: 120px !important; 
+    
+}
+
+
+
+.input-name{
+    width: 170px !important;
+    display: flex;
+    
+}
+
+/* tasks page */
+.tasks{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 195, 207);
+    margin: 4px;
+   
+}
+
+.title{
+    font-size: px;
+    letter-spacing:1px;
+    font-style: oblique;
+}
+.name{
+    
+    font-size: 20px;
+    letter-spacing:1px
+}
+
+.time{
+    font-size: 14px;
+    color: rgb(71, 71, 163);
+    
+}
+
+.delete{
+    font-size: 22px !important;
+    cursor: pointer;
+    float: right;
+}
+
+.delete:hover{
+   
+    color: red;
+    
+}
+
+
+
+.for-add-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.material-icons{
+    cursor: pointer ;
+    font-size: 40px;
+}
+
+
+.material-icons:hover{
+border: .2px solid brown;
+background-color: bisque;
+border-radius: 50%;
+margin-top: 3px;
+}
+
+
+.error{
+    background-color: red;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+
